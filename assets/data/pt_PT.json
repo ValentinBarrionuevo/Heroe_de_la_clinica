@@ -1,0 +1,204 @@
+{
+  "menu": {
+    "mainMenu": {
+      "jugar": ["Jogar"],
+      "creditos": ["Créditos"],
+      "ayuda": ["Ajuda"],
+      "volver": ["Retorna"]
+    },
+    "roles": [
+      "Programador \nDesigner de jogo \nMúsico \nArtista \nProgramador líder"
+    ],
+    "menuPausa": {
+      "pausa": ["PAUSA"],
+      "reanudar": ["Retorna"],
+      "ayuda": ["Ajuda"],
+      "salir": ["Sair"]
+    },
+    "infoPoster": {
+      "rubeola": ["Rubéola"],
+      "rubInfo": [
+        "A rubéola é uma infecção viral contagiosa caracterizada \npor uma erupção cutânea característica em todo o corpo."
+      ],
+      "varicela": ["Catapora"],
+      "varInfo": [
+        "A Catapora é uma infecção que causa uma erupção cutânea \ncom comichão e pequenas bolhas com fluido."
+      ],
+      "paperas": ["Caxumba"],
+      "papInfo": [
+        "A Caxumba é uma infecção viral que afeta principalmente \nas glândulas salivares próximas às orelhas."
+      ]
+    },
+    "pacMenu": {
+      "pac1": {
+        "nombre": ["Nome:"],
+        "edad": ["Era:"],
+        "gSanguineo": ["Tipo Sanguíneo:"],
+        "estatura": ["Altura:"]
+      }
+    }
+  },
+  "juego": {
+    "consultorioScene": {
+      "ficha": ["Arquivo do paciente"],
+      "puerta": ["Vá para a maca"],
+      "libreta": ["Cardápio"],
+      "charlar": ["Falar"],
+      "poster": ["Informações sobre doenças"]
+    },
+    "camillaScene": {
+      "info": {
+        "ficha": ["Arquivo do paciente"],
+        "puerta": ["Vá para a maca"],
+        "libreta": ["Cardápio"],
+        "estetoscopio": ["Estetoscópio"],
+        "termometro": ["Termômetro"],
+        "linterna": ["Lanterna"],
+        "guantes": ["Luvas"]
+      }
+    },
+    "diagnostico": {
+      "diagGangTrue": ["Suas glândulas estão inchadas."],
+      "diagGangFalse": ["Sem glândulas inchadas."],
+      "diagFarTrue": ["Eu detecto faringite"],
+      "diagFarFalse": ["No detecto faringitis."],
+      "diagInfTrue": ["Não detecto faringitis."],
+      "diagInfFalse": ["Seus olhos não estão inflamados."],
+      "diagTemp": ["A temperatura dele é "]
+    },
+    "resultados": {
+      "exito": ["Sucesso"],
+      "fallo": ["Falha"],
+      "menu": ["Cardápio"],
+      "siguiente": ["Continuar"],
+      "calific": ["Qualificação"],
+      "salv": ["Pontos de resgate:"],
+      "exce": ["Excelente"],
+      "mb": ["Muito bem"],
+      "b": ["Boa"],
+      "s": ["Satisfatório"],
+      "ns": ["Insatisfatório"]
+    },
+    "mensajes": {
+      "msgCab1": [
+        "Medi minha alta temperatura ontem à noite e hoje acordei com dor de cabeça.\n"
+      ],
+      "msgCab2": ["Estou com dor de cabeça."],
+      "msgCong": ["Tenho algum congestionamento ultimamente."],
+      "msgErup": ["Tenho uma erupção leve em todo o corpo."],
+      "msgArt": ["Minhas juntas doem constantemente quando\nme movo."],
+      "msgDolMast": ["Quando mastigo, minha garganta dói."],
+      "msgDolMusc": ["Sinto um desconforto nos músculos."],
+      "msgFat": [
+        "Ultimamente estou cansado, não tenho\nvontade de fazer nada."
+      ],
+      "msgApet": ["Faz alguns dias que não quero comer."],
+      "msgCans": [
+        "Ultimamente tenho tido dificuldade em sair\nda cama, canso-me rápido."
+      ],
+      "msgSaludos": [
+        "Médico: Olá, boa tarde, o que está\nacontecendo com você?",
+        "Médico: Prazer em conhecê-lo, como você\nestá?",
+        "Médico: Bom dia, me diga o que há de errado\ncom você?",
+        "Médico: Prazer em conhecê-lo, qual o motivo\nda sua visita?"
+      ],
+      "msgPaciente": ["Paciente: Bom dia. "]
+    },
+    "ayuda1": [
+      "Síntomas:\nPara descobrir alguns sintomas, você precisa falar com\no paciente clicando SOMENTE no consultório.\n\nArquivo do paciente:\nEle contém informações sobre o paciente e 3 guias extras\nusadas para marcar os sintomas que você detecta.\n\nPorta:\nPermite que você vá para a sala de exame ou volte\npara o escritório.\n\nSala de exames:\nA partir daqui, são realizados exames\nfísicos no paciente usando as ferramentas disponíveis."
+    ],
+    "ayuda2": [
+      "Ferramentas:\nEles revelam informações sobre os sintomas.\n\nSelos:\nPermitem dar um diagnóstico definitivo ao\npaciente, saudável ou infectado.\n\n Caderno:\nA partir daqui, você pode acessar o menu de\npausa, onde encontrará esta página de ajuda e poderá\nsair do jogo."
+    ],
+    "infoEnfermedad": {
+      "rubeola": [
+        "Sintomas de Rubéola\n-Febre ligeira de 38,9 °C\n-Dores de cabeça\n-Congestão nasal ou secreções escorrendo\n-Inflamação e vermelhidão dos olhos\n-Dores nas articulações, especialmente em mulheres jovens\n-Uma erupção cutânea fina e rosada que começa no rosto e se espalha rapidamente\n em direção ao tronco e braços e pernas, em seguida, desaparece\n da mesma maneira"
+      ],
+      "varicela": [
+        "Sintomas de Varicela\n-Febre\n-Perda de apetite\n-Cansaço e mal-estar geral\n-Erupção cutânea, ou erupção cutânea, característica em todo o corpo"
+      ],
+      "paperas": [
+        "Sintomas de Caxumba\n-Eles podem causar inflamação de uma ou ambas as glândulas salivares\n perto das orelhas\n-Dor ao mastigar ou engolir\n-Pode causar febres leves entre 38-39 ° C\n-Fraqueza ou fadiga\n-Perda de apetite\n-Dores musculares"
+      ],
+      "score": {
+        "calificaciones": ["Pontuação final: "],
+        "salvacion": ["Seus pontos salvos:"]
+      }
+    }
+  },
+  "tutorial": {
+    "chatTuto1": ["Doctor: Bom Dia, prazer em conhece-lo."],
+    "chatTuto2": ["Paciente: Oi, um prazer tambem."],
+    "chatTuto3": ["Doctor: Diga-me, o que está acontecendo\ncom você?"],
+    "chatTuto4": [
+      "Paciente: Tenho dores de cabeça e não estou\ncom muita fome."
+    ],
+    "chatTuto5": [
+      "Paciente: Também desde que começaram eu\nme sinto com febre."
+    ],
+    "chatTuto6": ["Doctor: Ok, algo mais?"],
+    "chatTuto7": [
+      "Paciente: Eu acho que isso é tudo. Ah não, eu\ntambém me canso rápido."
+    ],
+    "chatTuto8": ["Doctor: Ok, vá para a maca."],
+    "tuto_01": {
+      "info": {
+        "ficha": ["Arquivo do paciente"],
+        "puerta": ["Vá para a maca"],
+        "libreta": ["Cardápio"],
+        "charlar": ["Falar"]
+      }
+    },
+    "tuto_02": {
+      "info": {
+        "ficha": ["Arquivo do paciente"],
+        "puerta": ["De volta ao escritório"],
+        "libreta": ["Cardápio"],
+        "estetoscopio": ["Estetoscopio"],
+        "termometro": ["Termômetro"],
+        "linterna": ["Lanterna"],
+        "guantes": ["Luvas"]
+      }
+    },
+    "menuTuto": {
+      "nombre": ["Nome:"],
+      "edad": ["Era:"],
+      "gSanguineo": ["Tipo Sanguíneo:"],
+      "estatura": ["Altura:"]
+    },
+    "varTuto": {
+      "varicela": ["Catapora"],
+      "perApetito": ["Perda de apetite"],
+      "cansancio": ["Fadiga"]
+    },
+    "ayuda10s": ["Pressione o paciente \npara falar com ele."],
+    "diagnostico": {
+      "diagGang": ["Sem glândulas inchadas."],
+      "diagFar": ["Eu detecto faringite."],
+      "diagInf": ["Seus olhos parecem bem."],
+      "diagTemp": ["38,9, uma temperatura alta."]
+    }
+  },
+  "fichas": {
+    "fiebre": ["Febre"],
+    "dolorCabeza": ["Dor de cabeça"],
+    "perApet": ["Perda de apetite"],
+    "cans": ["Cansaço"],
+    "cong": ["Congestionamento"],
+    "infOjos": ["Olhos inchados"],
+    "infGang": ["Glândulas inchadas"],
+    "sarp": ["Erupção na pele"],
+    "dolorArt": ["Dor nas articulações"],
+    "far": ["Faringite"],
+    "dolorMast": ["Dor ao mastigar"],
+    "dolorMusc": ["Dor muscular"],
+    "fatiga": ["Fadiga"],
+
+    "estado": ["Estado"],
+    "si": ["Sim"],
+    "no": ["Não"],
+    "sano": ["SAUDÁVEL"],
+    "enfermo": ["DOENTE"],
+    "terminar": ["Terminar"]
+  }
+}

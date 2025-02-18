@@ -1,0 +1,25 @@
+{
+  "general": { "cabeza": ["true", "false"], "fiebre": ["true", "false"] },
+
+  "enfermedad": {
+    "rubeola": {
+      "congestion": ["true", "false"],
+      "inflamacion": ["true", "false"],
+      "ganglios": ["true", "false"],
+      "erupcion": ["true", "false"],
+      "articulaciones": ["true", "false"],
+      "faringitis": ["true", "false"]
+    },
+    "paperas": {
+      "ganglios": ["true", "false"],
+      "dolorMast": ["true", "false"],
+      "dolorMusc": ["true", "false"],
+      "fatiga": ["true", "false"],
+      "perdidaApet": ["true", "false"]
+    },
+    "varicela": {
+      "perdidaApet": ["true", "false"],
+      "cansancio": ["true", "false"]
+    }
+  }
+}

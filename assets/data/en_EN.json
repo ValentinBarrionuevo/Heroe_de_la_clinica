@@ -1,0 +1,204 @@
+{
+  "menu": {
+    "mainMenu": {
+      "jugar": ["Play"],
+      "creditos": ["Credits"],
+      "ayuda": ["Help"],
+      "volver": ["Back"]
+    },
+    "roles": [
+      "Programmer \nGame Designer \nMusician \nArtist \nHead Programmer"
+    ],
+    "menuPausa": {
+      "pausa": ["PAUSE"],
+      "reanudar": ["Resume"],
+      "ayuda": ["Help"],
+      "salir": ["Exit"]
+    },
+    "infoPoster": {
+      "rubeola": ["Rubella"],
+      "rubInfo": [
+        "Rubella is a viral contagious disease that's known\nfor the rash it induces all over the body."
+      ],
+      "varicela": ["Chickenpox"],
+      "varInfo": [
+        "Chickenpox is a viral infection that causes a rash\non the skin with small blisters all over the body."
+      ],
+      "paperas": ["Parotitis"],
+      "papInfo": [
+        "Parotitis or Mumps is a viral infection that affects mainly\nthe salivary glands found near the ears."
+      ]
+    },
+    "pacMenu": {
+      "pac1": {
+        "nombre": ["Name:"],
+        "edad": ["Age:"],
+        "gSanguineo": ["Blood Type:"],
+        "estatura": ["Height:"]
+      }
+    }
+  },
+  "juego": {
+    "consultorioScene": {
+      "ficha": ["Patient Information"],
+      "puerta": ["Examination Room"],
+      "libreta": ["Menu"],
+      "charlar": ["Talk"],
+      "poster": ["Diseases Information"]
+    },
+    "camillaScene": {
+      "info": {
+        "ficha": ["Patient Information"],
+        "puerta": ["Doctor's Office"],
+        "libreta": ["Menu"],
+        "estetoscopio": ["Sthetoscope"],
+        "termometro": ["Termometer"],
+        "linterna": ["Lantern"],
+        "guantes": ["Gloves"]
+      }
+    },
+    "diagnostico": {
+      "diagGangTrue": ["I feel swollen ganglia."],
+      "diagGangFalse": ["No swollen ganglia detected."],
+      "diagFarTrue": ["I detect pharyngitis."],
+      "diagFarFalse": ["I don't detect pharyngitis."],
+      "diagInfTrue": ["Their eyes are swollen."],
+      "diagInfFalse": ["Their eyes seem fine."],
+      "diagTemp": ["Body Temperature "]
+    },
+    "resultados": {
+      "exito": ["Success"],
+      "fallo": ["You Failed"],
+      "menu": ["Menu"],
+      "siguiente": ["Continue"],
+      "calific": ["Calification"],
+      "salv": ["Salvation Points:"],
+      "exce": ["Exccellent"],
+      "mb": ["Very Good"],
+      "b": ["Good"],
+      "s": ["Ok"],
+      "ns": ["Failed"]
+    },
+    "mensajes": {
+      "msgCab1": [
+        "Last night I measured my temperature and today I woke up with a slight headache. \n"
+      ],
+      "msgCab2": ["I have a headache."],
+      "msgCong": ["I have some congestion."],
+      "msgErup": ["I've got a slight rash all over the body."],
+      "msgArt": ["My joints hurts when I move."],
+      "msgDolMast": ["My throat hurts when I chew."],
+      "msgDolMusc": ["I feel some muscle discomfort."],
+      "msgFat": [
+        "Im feeling really tired lately, I don't feel like\ndoing anything."
+      ],
+      "msgApet": ["I haven't feeling like eating these days."],
+      "msgCans": [
+        "Lately it's been harder to get out of bed,\nI get tired really fast."
+      ],
+      "msgSaludos": [
+        "Doctor: Hello, how are you feeling?",
+        "Doctor: Good afternoon, how you've been\nfeeling lately?",
+        "Doctor: Morning, so tell me, what's going on?",
+        "Doctor: G'day, what's the matter?"
+      ],
+      "msgPaciente": ["Patient: Hello. "]
+    },
+    "ayuda1": [
+      "Symptoms:\nSome symptoms need you to talk to the patient to discover\nthem, this can only happen when you're in the Doctor's\nOffice.\n\nPatient Information:\nContains information about the patient and 3 extra tabs\nutilized to check the symptoms that you discover.\n\nDoor:\nAllows the entrance to the Examination Room or back to\nthe Doctors Office.\n\nExamination Room:\nFrom here you can perform a physical check to the\npatient with the provided examination tools."
+    ],
+    "ayuda2": [
+      "Examination Tools:\nThey reveal useful information of the patient's symptoms.\n\nStamps:\nThey allow you to give the final diagnostic of the patient,\nGreen = Healthy, Red = Ill.\n\nNotebook:\nFrom here you can access the pause menu, here you'll\nfind this help page and you can also exit the game."
+    ],
+    "infoEnfermedad": {
+      "rubeola": [
+        "Rubella symptoms\n-Mild fever of 38.9 ° C\n-Headaches\n-Nasal congestion or runny secretions\n-Inflammation and redness of the eyes\n-Joint pains, especially in young women\n-A fine, pink rash that begins on the face and spreads quickly\n towards the torso and arms and legs, then disappear\n in the same way"
+      ],
+      "varicela": [
+        "Chickenpox Symptoms\n-Fever\n-Loss of appetite\n-Tiredness and feeling generally unwell\n-Skin rash, or rash, characteristic all over the body"
+      ],
+      "paperas": [
+        "Mumps symptoms\n-They can cause inflammation of one or both salivary glands\n close to the ears\n-Pain when chewing or swallowing\n-May cause mild fevers between 38-39 ° C\n-Weakness or fatigue\n-Loss of appetite\n-Muscle pains"
+      ]
+    },
+    "score": {
+      "calificaciones": ["Final score: "],
+      "salvacion": ["Your salvation points: "]
+    }
+  },
+  "tutorial": {
+    "chatTuto1": ["Doctor: Good morning, I'ts a pleasure."],
+    "chatTuto2": ["Paciente: Morning', a pleasure to meet you\ntoo."],
+    "chatTuto3": ["Doctor: So tell me, how are you feeling?"],
+    "chatTuto4": [
+      "Paciente: I'm with a slight headache and I'm\nwith a lack appetite lately."
+    ],
+    "chatTuto5": [
+      "Paciente: Also, since all of that started I'm\nfeeling kinda feverish."
+    ],
+    "chatTuto6": ["Doctor: Hmm, Is there anything else?"],
+    "chatTuto7": [
+      "Paciente: Let me think. Oh, I get tired easily."
+    ],
+    "chatTuto8": ["Doctor: Ok, please go to the Examining Room."],
+    "tuto_01": {
+      "info": {
+        "ficha": ["Patient Information"],
+        "puerta": ["Examination Room"],
+        "libreta": ["Menu"],
+        "charlar": ["Talk"]
+      }
+    },
+    "tuto_02": {
+      "info": {
+        "ficha": ["Patient Information"],
+        "puerta": ["Doctor's office"],
+        "libreta": ["Menu"],
+        "estetoscopio": ["Sthetoscope"],
+        "termometro": ["Termometer"],
+        "linterna": ["Lantern"],
+        "guantes": ["Gloves"]
+      }
+    },
+    "menuTuto": {
+      "nombre": ["Name:"],
+      "edad": ["Age:"],
+      "gSanguineo": ["Blood Type:"],
+      "estatura": ["Height:"]
+    },
+    "varTuto": {
+      "varicela": ["Chickenpox"],
+      "perApetito": ["Loss of Appetite"],
+      "cansancio": ["Fatigue"]
+    },
+    "ayuda10s": ["Touch the Patient to talk to him."],
+    "diagnostico": {
+      "diagGang": ["No swollen ganglia detected."],
+      "diagFar": ["I detect pharyngitis."],
+      "diagInf": ["His eyes seem fine."],
+      "diagTemp": ["High Fever, 38.9C°."]
+    }
+  },
+  "fichas": {
+    "fiebre": ["Fever"],
+    "dolorCabeza": ["Headache"],
+    "perApet": ["Loss of appetite"],
+    "cans": ["Exhausted"],
+    "cong": ["Congestion"],
+    "infOjos": ["Eye inflammation"],
+    "infGang": ["Swollen glands"],
+    "sarp": ["Rash on the skin"],
+    "dolorArt": ["Joint pain"],
+    "far": ["pharyngitis"],
+    "dolorMast": ["Pain when chewing"],
+    "dolorMusc": ["Muscle pain"],
+    "fatiga": ["Fatigue"],
+
+    "estado": ["Status"],
+    "si": ["Yes"],
+    "no": ["No"],
+    "sano": ["HEALTHY"],
+    "enfermo": ["ILL"],
+    "terminar": ["Finish"]
+  }
+}
